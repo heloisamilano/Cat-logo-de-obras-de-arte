@@ -1,0 +1,24 @@
+
+body {
+  background-color: rgb(241, 198, 220);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+div{
+    display:flex ;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column ;
+}
+.card umg{
+  width: 500vh;
+}
