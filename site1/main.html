@@ -2,15 +2,25 @@
 <html lang="en"><!--define o idioma principal de um documento HTML -->
 <head><!---Sua principal função é armazenar metadados — informações sobre a página que não são exibidas diretamente no navegador para o usuário final-->
     <meta charset="UTF-8"> <!--Define que o site utiliza a codificação de caracteres UTF-8-->
-    <title>Title</title><!--Define o título da página que aparece na aba do navegador e nos resultados de pesquisa.-->
+    <title>Catálogo de obras de Van Gogh</title><!--Define o título da página que aparece na aba do navegador e nos resultados de pesquisa.-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--definir descrições de pesquisa,-->
-    <link rel = "stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"><!--conecta o arquivo CSS ao HTML-->
 </head><!--fecha a head-->
 <body><!--: (o corpo do texto) Onde o conteúdo visível da página (texto, imagens, vídeos) é colocado. -->
-    <div class = "card">
-        <!--atributos do card -->
-        <p>CATÁLOGO DE OBRAS DE ARTE </p>
-        <img src="van-gogh-amendoeira-flor-d.jpg" alt="amendoeira" width="600" height="600" > 
-    </div>
-</body><!--fecha o conteúdo visível -->
-</html><!--indica o fim do documento html-->    
+    <div class="container"><!--container para organizar os cards lado a lado-->
+        <div class="card"><!--atributos do card -->
+            <p>CATÁLOGO DE OBRAS DE ARTE </p>
+            <img src="van-gogh-amendoeira-flor-d.jpg" alt="amendoeira" width="600" height="600">
+        </div>
+        <div class="card"><!--segundo card-->
+            <img src="anoiteestrelada-cke.webp" alt="Noite estrelada">
+            <p>Obra 2 - Descrição simples</p>
+        </div>
+        <div class="card"><!--terceiro card-->
+            <img src="obra3.jpg" alt="obra 3">
+            <p>Obra 3 - Descrição simples</p>
+        </div>
+        <div class="card"><!--quarto card-->
+            <img src="obra4.jpg" alt="obra 4">
+            <p>Obra 4 - Descrição simples</p>
+        </div>
