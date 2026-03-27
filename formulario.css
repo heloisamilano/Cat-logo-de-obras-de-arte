@@ -1,0 +1,18 @@
+.formulario {
+  width: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background: rgb(253, 202, 232);
+  border: 1px solid #c8f1fd;
+  border-radius: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.formulario button {
+  margin-top: 10px;
+}
