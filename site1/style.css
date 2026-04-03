@@ -1,43 +1,64 @@
 body {
-  background-color: rgb(241, 198, 220); /* cor de fundo da página */
+  background-color:rgb(245, 210, 210); /* cor de fundo da página */
+  font-family:'Times New Roman', Times, serif;
 }
 
 h1 {
-  color: white; /* cor do título */
-  text-align: center; /* centraliza o título */
+  color: white; /*cor do título*/
+  text-align: center; /*centraliza o título*/
   font-size: 48px;
-  border: 3px solid #e9f7ae; 
+  border: 3px solid #254e8f; 
+  font-family: inherit;
 }
 p {
-  font-family: verdana; /* fonte do texto */
-  font-size: 14px; /* tamanho do texto */
+  font-size: 17px;
+  text-align: center;
 }
 
-.container { /* alinhar os cards */
-  display: flex; /* coloca os cards lado a lado */
-  justify-content: center; /* centraliza */
-  flex-wrap: wrap; /* quebra linha igual catálogo */
+.container { /*alinhar os cards */
+  display: flex; /*coloca os cards lado a lado */
+  justify-content: center; /*centraliza*/
+  flex-wrap: wrap; 
 }
+
 
 .card { /* organização */
   display: flex;
-  flex-direction: column; /* garante imagem em cima e texto embaixo */
-  align-items: center; /* centraliza conteúdo */
-  background-color: white; /* fundo branco */
+  flex-direction: column; /*imagem em cima e o texto embaixo*/
+  align-items: center; /*centraliza as coisa escrivinhada dentro*/
+  background-color: rgb(248, 247, 186); 
   margin: 10px;
   padding: 10px;
   width: 220px;
+  font-family: inherit;
 }
 
 .card img {
-  width: 100%; /* imagem ocupa todo o card */
+  width: 100%; /*imagem ocupa todo o card */
 }
 .card {
-  width: 350px;              /* aumenta o tamanho */
-  border: 2px solid #ccc;    /* borda */
-  border-radius: 15px;       /* canto */
+  width: 350px;              /*tamanho */
+  border: 2px solid rgb(252, 250, 124);    /*borda */
+  border-radius: 15px;       /*canto */
+  font-family: inherit;
 }
 
 .card img {
-  border-radius: 10px;       /* arredonda a imagem */
+  border-radius: 10px;/*arredonda a imagem */
+}
+.btn {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;       
+  font-size: 20px;
+  font-family: inherit;
+  background: rgb(163, 204, 218);   
+  border: 1px solid rgb(189, 227, 195); 
+}
+.card-cima {
+  width: 76vw; 
+  margin: 20px auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-family: inherit;
 }
